@@ -13,7 +13,7 @@
 #     """
 
 class Seeker:
-    pass
+    
 
 # # 2) Create the class constructor. Use the following method comment.
 #         """Constructs a new Seeker.
@@ -21,7 +21,8 @@ class Seeker:
 #         Args:
 #             self (Seeker): An instance of Seeker.
 #         """
-       
+       def __init__(self):
+           self.location = 0
 # # 3) Create the get_location(self) method. Use the following method comment.
 #         """Gets the current location.
         
