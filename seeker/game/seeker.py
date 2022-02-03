@@ -30,7 +30,7 @@ class Seeker:
 #             number: The current location,
 #         """
     def get_location(self):
-        pass
+        return self.location
         
 # # 4) Create the move_location(self, location) method. Use the following method comment.
 #         """Moves to the given location.
@@ -39,3 +39,5 @@ class Seeker:
 #             self (Seeker): An instance of Seeker.
 #             location (int): The given location.
 #         """
+    def move_location(self, location):
+        self._location = location
