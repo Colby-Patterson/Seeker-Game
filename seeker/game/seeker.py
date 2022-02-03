@@ -21,14 +21,16 @@ class Seeker:
 #         Args:
 #             self (Seeker): An instance of Seeker.
 #         """
-       def __init__(self):
-           self.location = 0
+    def __init__(self):
+        self.location = 0
 # # 3) Create the get_location(self) method. Use the following method comment.
 #         """Gets the current location.
         
 #         Returns:
 #             number: The current location,
 #         """
+    def get_location(self):
+        pass
         
 # # 4) Create the move_location(self, location) method. Use the following method comment.
 #         """Moves to the given location.
